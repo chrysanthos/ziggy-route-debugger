@@ -1,5 +1,7 @@
 # Ziggy Route Debugger
 
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=for-the-badge)](https://plant.treeware.earth/chrysanthos/ziggy-route-debugger)
+
 ![screenshot.png](images%2Fscreenshot.png)
 
 ## Are you leaking routes in your ziggy powered site?
