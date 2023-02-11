@@ -15,11 +15,13 @@ available publicly.)
 
 Leaking routes like below, is a security risk for us therefore we needed a way to easily verify which routes are exposed
 in each page. In this example, we are leaking the dashboard, 2FA endpoints and cashier predefined routes.
+
 ![leak_example.png](images%2Fleak_example.png)
 
 ### Do I really need a browser extension for that?
 
 Definitely not! Feel free to read the json lines of each page manually. It's a nightmare.
+
 ![readityourself.gif](images%2Freadityourself.gif)
 
 #### Does this work with all Ziggy websites?
