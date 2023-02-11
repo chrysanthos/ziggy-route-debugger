@@ -1,0 +1,24 @@
+{
+  "name": "Ziggy Route Debugger",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Ziggy Route Debugger allows you to easily debug the exposed routes in each page of your site",
+  "homepage_url": "https://github.com/chrysanthos/ziggy-route-debugger",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Ziggy Route Analysis",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://*/*",
+    "https://*/*"
+  ]
+}

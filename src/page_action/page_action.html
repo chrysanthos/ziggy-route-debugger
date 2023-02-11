@@ -1,0 +1,53 @@
+<!doctype html>
+<style type="text/css">
+    body {
+        width: 600px;
+    }
+
+    #mainPopup {
+        padding: 10px;
+        height: 200px;
+        font-family: Helvetica, Ubuntu, Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .route-item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1px;
+    }
+
+    .route-name {
+        text-align: center;
+    }
+
+    .route-group {
+        padding: 10px;
+        border: 1px solid #cccccc;
+        margin-bottom: 5px;
+    }
+
+    .route-group > h1 {
+        margin: 4px 0;
+        font-size: 15px;
+        color: #3c3c3c;
+    }
+
+    .method-container {
+        width: 25%;
+        display: flex;
+    }
+
+    .method-item {
+        border: 1px solid #22c979;
+        padding: 1px 5px;
+        margin: 1px;
+        text-align: center;
+    }
+</style>
+<script src="./page_action.js"></script>
+<div id="mainPopup">
+    <p>No routes detected!</p>
+</div>
