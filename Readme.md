@@ -6,7 +6,7 @@
 
 ## Are you leaking routes in your ziggy powered site?
 
-Ziggy Route Debugger is a open-source browser extension that allows you to easily verify that the no sensitive routes
+Ziggy Route Debugger is an open-source browser extension that allows you to easily verify that the no sensitive routes
 are leaked to guests.
 
 If you used Ziggy with your laravel project (and possibly Inertia.js) you may be leaking routes you don't want to.
